@@ -1,11 +1,11 @@
 const numbers = [1, 2, 3, 5, 45, 37, 58];
 
-function sumArray(array) {
+function sumAll(param) {
   let sum = 0;
-  for (let i = 0; i < array.length; i++) {
-    sum += array[i];
+  for (let i = 0; i < param.length; i++) {
+    sum += param[i];
   }
   return console.log(sum);
 }
 
-sumArray(numbers);
+sumAll(numbers);
